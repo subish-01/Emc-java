@@ -5,6 +5,7 @@ public class AnswerSeven
     public static void main(String[] args) 
     {
         Scanner scan = new Scanner(System.in);
+        System.out.print("Enter your mark in examination: ");
         int mark = scan.nextInt();
         if(mark>35)
         {
