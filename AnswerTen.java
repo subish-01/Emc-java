@@ -15,5 +15,6 @@ public class AnswerTen
         {
             System.out.println("The given number is even");
         }
+        scan.close();
     }
 }

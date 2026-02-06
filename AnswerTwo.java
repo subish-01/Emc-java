@@ -11,5 +11,6 @@ public class AnswerTwo
         System.out.println(Name);
         System.out.println(Age);
         System.out.println(Address);
+        scan.close();
     }
 }

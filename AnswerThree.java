@@ -11,5 +11,6 @@ public class AnswerThree
         int e = a+b+c;
         int f = d/e;
         System.out.println(f);
+        scan.close();
     }   
 }

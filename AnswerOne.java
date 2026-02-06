@@ -8,5 +8,6 @@ public class AnswerOne
         int Age = scan.nextInt();
         System.out.println(Name);
         System.out.println(Age);
+        scan.close();
     }
 }

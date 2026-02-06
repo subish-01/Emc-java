@@ -15,5 +15,6 @@ public class AnswerSeven
         {
             System.out.println("You failed in the examination");
         }
+        scan.close();
     }
 }

@@ -19,5 +19,6 @@ public class AnswerEleven
         {
             System.out.print("Excellent performance!");
         }
+        scan.close();
     }
 }
