@@ -5,7 +5,7 @@ public class AnswerThirteen
     public static void main(String[] args) 
     {
         Scanner scan = new Scanner(System.in);
-        System.out.print("Enter the colour of the traffic light: ");
+        System.out.print("Enter the colour of the traffic signal: ");
         String light = scan.nextLine();
         if(light.equals("red"))
         {
