@@ -26,5 +26,6 @@ public class AnswerFourteen
         {
             System.out.println("You are not eligible for the loan");
         }
+        scan.close();
     }
 }
