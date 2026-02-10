@@ -11,5 +11,6 @@ public class AnswerFifteen
         int num2 = scan.nextInt();
         String result = num1>num2? "Number "+num1+" is greater": "Number "+num2+" is greater";
         System.out.println(result);
+        scan.close();
     }
 }
