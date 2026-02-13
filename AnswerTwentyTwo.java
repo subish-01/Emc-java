@@ -16,5 +16,7 @@ public class AnswerTwentyTwo
             System.out.print("The Element "+(j+1)+" is :");
             System.out.println(array[j]);
         }
+        scan.close();
     }
+
 }
