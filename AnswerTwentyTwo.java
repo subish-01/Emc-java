@@ -11,5 +11,10 @@ public class AnswerTwentyTwo
             System.out.print("Enter the Element "+(i+1)+" :");
             array[i] = scan.nextInt();
         }
+        for(int j = 0; j<5; j++)
+        {
+            System.out.print("The Element "+(j+1)+" is :");
+            System.out.println(array[j]);
+        }
     }
 }
