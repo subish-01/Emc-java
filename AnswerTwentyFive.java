@@ -11,6 +11,6 @@ public class AnswerTwentyFive
         {
             System.out.println(i+" x "+number+ " = "+number*i);
         }
-       
+        scan.close();
     }
 }
