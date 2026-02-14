@@ -31,5 +31,6 @@ public class AnswerTwentySix
             System.out.print("The middle element is: ");
             System.out.print(Arrays.toString(mid_array));
         }
+        scan.close();
     }
 }
