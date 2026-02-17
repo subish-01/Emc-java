@@ -19,5 +19,6 @@ public class AnswerThirtyThree
         int num = scan.nextInt();
         AnswerThirtyThree obj = new AnswerThirtyThree();
         obj.evenorodd(num);
+        scan.close();
     }
 }
