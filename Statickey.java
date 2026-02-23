@@ -13,13 +13,6 @@ class Counter
         System.out.println("Static variable count "+count);
     }
 }
-
-
-
-
-
-
-
 public class Statickey 
 {
     public static void main(String[] args)
