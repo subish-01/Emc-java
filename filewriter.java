@@ -8,8 +8,9 @@ public class filewriter
         {
         FileWriter fw = new FileWriter("Output.txt");
         fw.write("Hello world");
+        fw.append(" This is java programming");
         fw.close();
-        System.out.println("Message written succesfully");
+        System.out.println(" Message written succesfully");
         }
         catch(Exception e)
         {
