@@ -1,4 +1,3 @@
-
 import java.io.*;
 public class filewriter 
 {
@@ -6,9 +5,8 @@ public class filewriter
     {
         try
         {
-        FileWriter fw = new FileWriter("Output.txt");
-        fw.write("Hello world");
-        fw.append(" This is java programming");
+        FileWriter fw = new FileWriter("Output.txt",true);
+        fw.append(" Welcome");
         fw.close();
         System.out.println(" Message written succesfully");
         }
